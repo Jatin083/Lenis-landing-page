@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <title>Document</title>
+    <style>
+        .grid>div{
+            grid-row: var(--r);
+            grid-column: var(--c);           
+        }
+                
+    </style>
+</head>
+
+
+<body>
+    <div class="w-full bg-zinc-900 main">
+        <div class="grid grid-cols-8 grid-rows-20 gap-2 overflow-hidden">
+            <div class="elem col-span-1" style="--r: 1; --c: 3;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386718/hx98npstkqysjczuirbp.jpg" alt="Image 1"></div>
+            <div class="elem col-span-1" style="--r: 1; --c: 7;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386718/jutgfhtq2puhfcwpzc2a.jpg" alt="Image 2"></div>
+            <div class="elem col-span-1" style="--r: 2; --c: 2;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386718/z7pbjc8zv8qrzzsdeogn.jpg" alt="Image 3"></div>
+            <div class="elem col-span-1" style="--r: 2; --c: 6;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386718/mbw6e7odeczfrdh9tzju.jpg" alt="Image 4"></div>
+            <div class="elem col-span-1" style="--r: 3; --c: 4;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386718/mhjdmplq9z3zsaq5pjit.jpg" alt="Image 5"></div>
+            <div class="elem col-span-1" style="--r: 3; --c: 8;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386718/yuq7rtr9jta8mmdnvim6.jpg" alt="Image 6"></div>
+            <div class="elem col-span-1" style="--r: 4; --c: 1;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386718/qxjddtcgnltwln71jkcs.jpg" alt="Image 7"></div>
+            <div class="elem col-span-1" style="--r: 4; --c: 4;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386718/wttm6qcsn9p0gzbpqvk4.jpg" alt="Image 8"></div>
+            <div class="elem col-span-1" style="--r: 5; --c: 2;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386719/thhhlcjnax3catq9ipdp.jpg" alt="Image 9"></div>
+            <div class="elem col-span-1" style="--r: 5; --c: 6;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386719/m2sufbzkqct4ipdyyfew.jpg" alt="Image 10"></div>
+            <div class="elem col-span-1" style="--r: 6; --c: 3;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386719/se7b5vlsbonkd3gmkuol.jpg" alt="Image 11"></div>
+            <div class="elem col-span-1" style="--r: 6; --c: 7;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386719/g6xxnjoxtros2uoa4oma.jpg" alt="Image 12"></div>
+            <div class="elem col-span-1" style="--r: 7; --c: 5;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386718/ios3gucse5xruudpoua2.jpg" alt="Image 13"></div>
+            <div class="elem col-span-1" style="--r: 7; --c: 8;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386719/ny7l2neyw5lygtliyfnc.jpg" alt="Image 14"></div>
+            <div class="elem col-span-1" style="--r: 8; --c: 1;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386719/yemtga8gvgsm2jcmntex.jpg " alt="Image 15"></div>
+            <div class="elem col-span-1" style="--r: 8; --c: 4;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386720/j7souakcmfnz0ogu4wr4.jpg" alt="Image 16"></div>
+            <div class="elem col-span-1" style="--r: 9; --c: 2;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386720/nlg1mpeioajpqxcn3wzc.jpg" alt="Image 17"></div>
+            <div class="elem col-span-1" style="--r: 9; --c: 6;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386720/epdnfjtqpykdrlqcjsc5.jpg" alt="Image 18"></div>
+            <div class="elem col-span-1" style="--r: 10; --c: 3;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386720/kpzabjk3xxjqpkfij7pi.jpg" alt="Image 19"></div>
+            <div class="elem col-span-1" style="--r: 10; --c: 7;"><img src="https://res.cloudinary.com/dkgv8ynjp/image/upload/v1726386720/zcbfzcqoxvnwyuocsa3g.jpg" alt="Image 20"></div>
+        </div>
+        <div 
+        class="fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center  text-white">
+            <h1 class="text-8xl mb-4 uppercase ">THOMAS VANCE<sup>®</sup>
+            </h1>
+            <h2 class="text-5xl ">並外れたファッション</h2>
+        </div>
+        <div 
+        class="w-full h-screen  bg-[#D1D1D1] flex items-center justify-center py-96 relative z-[999] text-center">
+            <p class=" text-5xl w-3/4 text-black leading-[4.2rem] font-regular text-left">Thomas Vance is a renowned 
+                clothing brand
+                known
+                for its exceptional
+                fashion
+                and unique 
+                designs. Our collection are crafted with the finest materials and attention to detail, ensuring that 
+                each piece is a work of art. Discover the elegance and sophistication of Thomas Vance, where fashion 
+                meets excellence.®</p>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
