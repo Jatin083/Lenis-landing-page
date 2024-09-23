@@ -17,6 +17,6 @@ This project is a landing page animation built using **HTML**, **Tailwind CSS**,
 - **GSAP**: For advanced animations and scroll-triggered effects.
 - **Lenis**: Provides smooth and performant scroll animations.
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
