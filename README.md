@@ -15,7 +15,7 @@ This project is a landing page animation built using **HTML**, **Tailwind CSS**,
 - **Tailwind CSS**: Utility-first CSS framework for responsive styling.
 - **JavaScript**: Handles the functionality and interaction.
 - **GSAP**: For advanced animations and scroll-triggered effects.
-- **Lenis**: Provides smooth and performant scroll animations.
+- **Lenis**: Provides smooth scroll and performant scroll animations.
 
 ### License
 
